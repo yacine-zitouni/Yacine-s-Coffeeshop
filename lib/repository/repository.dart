@@ -1,4 +1,4 @@
-import 'package:yacine_coffeeshop/data/drinks.dart';
+import 'package:yacine_coffeeshop/model/drink.dart';
 
 abstract class Repository {
   //  La liste des boissons est représntée par un dictionnaire de dictionnaires

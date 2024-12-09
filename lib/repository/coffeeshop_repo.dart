@@ -1,7 +1,7 @@
-import 'package:yacine_coffeeshop/data/drinks.dart';
+import 'package:yacine_coffeeshop/model/drink.dart';
 import 'package:yacine_coffeeshop/repository/repository.dart';
 
-class Coffeeshop implements Repository{
+class CoffeeshopRepo implements Repository{
 
   @override
   Map<DrinkType, Map<DrinkSize, double>> drinks = {
